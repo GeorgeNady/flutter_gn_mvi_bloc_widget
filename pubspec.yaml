@@ -1,7 +1,7 @@
-name: flutter_gn_base_bloc_widget
+name: flutter_gn_mvi_bloc_widget
 description: A base BLoC widget implementation for Flutter, extracting common patterns for stateful and stateless widgets with BLoC.
 version: 0.0.1
-homepage: https://github.com/GeorgeNady/flutter_base_bloc_widget
+homepage: https://github.com/GeorgeNady/flutter_gn_mvi_bloc_widget
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -11,7 +11,6 @@ dependencies:
     sdk: flutter
   bloc: ^9.2.0
   flutter_bloc: ^9.1.1
-#  get: ^4.7.3
   equatable: ^2.0.5
 
 dev_dependencies:
