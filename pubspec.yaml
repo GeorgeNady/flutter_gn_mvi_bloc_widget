@@ -1,6 +1,6 @@
 name: flutter_gn_mvi_bloc_widget
 description: A base BLoC widget implementation for Flutter, extracting common patterns for stateful and stateless widgets with BLoC.
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/GeorgeNady/flutter_gn_mvi_bloc_widget
 
 environment:

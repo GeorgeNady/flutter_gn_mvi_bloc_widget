@@ -1,16 +1,15 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 
-abstract class BaseEvent {}
+import '../core/base_event.dart';
+import '../core/base_side_effect.dart';
+import '../core/base_state.dart';
 
-abstract class BaseSideEffect {}
-
-abstract class BaseState extends Equatable {
-  const BaseState();
-}
+export '../core/base_event.dart';
+export '../core/base_side_effect.dart';
+export '../core/base_state.dart';
 
 abstract class BaseBloc<E extends BaseEvent, SE extends BaseSideEffect,
     S extends BaseState> extends Bloc<E, S> {
